@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .description {
+    width: 400px; /*Define a largura desejada*/
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .description h1 {
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .description h2 {
+    font-size: 20px;
+  }
+
+  .description p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .description img {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+
+  .links {
+    margin-top: 20px;
+    text-align: center; /*Adiciona alinhamento central*/
+  }
+
+  .links a {
+    display: block; /*Altera para o display block para ficarem um abaixo do outro*/
+    margin-bottom: 10px;
+    padding: 10px; /*Ajusta o preenchimento interno*/
+    background-color: #683516;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 400px; /*Define um tamanho padrão para os botões*/
+  }
+
+  .links a:hover {
+    background-color: #AB725B;
+  }
+
+  .links {
+    display: flex; /* Adiciona um display flex para centralizar os botões */
+    flex-direction: column; /* Altera a direção flex para coluna */
+    align-items: center; /* Centraliza os botões horizontalmente */
+  }
